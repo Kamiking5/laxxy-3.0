@@ -1,33 +1,35 @@
-name: Node.js CI
+apt update
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+2. apt upgrade
 
-jobs:
-  build:
+3. pkg update && pkg upgrade
 
-    runs-on: ubuntu-latest
+4. pkg install bash
 
-    strategy:
-      matrix:
-        node-version: [20.x]
+5. pkg install git
 
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+6. pkg install nodejs
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
+7. pkg install ffmpeg
 
-    - name: Install dependencies
-      run: npm install
+8. pkg install wget
 
-    - name: Start application
-      run: npm start
+9. pkg install imagemagick
+
+10. pkg install yarn
+
+11. termux-setup-storage
+
+12. cd /sdcard
+
+13. cd / jaha file ectract ki ha os ki location and enter
+
+14. yarn install
+
+15. npm start
+
+agar termux exit ho jata ha to again start karny valy command bh dykh loo 
+
+cd /sdcard      
+  
+cd / file name loaction or phir os ky bad ya vala command 👉🏻 npm start
